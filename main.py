@@ -2,7 +2,7 @@
 def flatten(l):
     return flatten(l[0]) + (flatten(l[1:]) if len(l) > 1 else []) if type(l) is list else [l]
 
-
+# Second question's of project
 def reverseList(l):
     newl = l[::-1]
     return newl
